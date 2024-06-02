@@ -1,0 +1,115 @@
+.what-we-do {
+  background-color: #141414;
+  color: #ffff;
+}
+
+.what-we-do-heading-container {
+  font-family: "NeueMontrealLight";
+  padding-top: 30px;
+}
+
+.wwd-item {
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-bottom: 50px;
+}
+
+.wwd-item-image {
+  width: 100px;
+  height: 100px;
+}
+
+.wwd-heading-line {
+  border-radius: 15px;
+  width: 10%;
+  border: 2.5px solid #845f42;
+}
+
+.wwd-heading {
+  font-size: 4.5rem;
+  font-weight: 500;
+}
+
+.wwd-item-heading {
+  color: #845f42;
+  max-height: 200px !important;
+  height: 120px;
+  padding: 20px;
+  font-weight: 800;
+}
+
+.wwd-item-text {
+  margin-top: 20px;
+  padding-left: 100px;
+}
+
+.wwd-slide-image {
+  width: 100%;
+  object-fit: contain;
+}
+
+.wwd-slide-icon {
+  width: 80px;
+}
+
+@media screen and (max-width: 991.98px) {
+  .what-we-do-heading-container {
+    margin-top: 20px;
+  }
+  .wwd-heading-line {
+    width: 15%;
+    border: 2.5px solid #845f42;
+  }
+  .wwd-item-heading {
+    padding: 20px 0px 0px 20px;
+  }
+  .wwd-item-text {
+    margin-top: 0px;
+  }
+
+  .wwd-slide-icon {
+    width: 50px;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .wwd-item-text {
+    margin-top: 20px;
+    padding-left: 0px;
+  }
+}
+
+@media screen and (max-width: 575.98px) {
+  .wwd-heading-line {
+    width: 20%;
+    border: 2.5px solid #845f42;
+  }
+  .wwd-heading {
+    font-size: 3.5rem;
+  }
+  .wwd-slide-icon {
+    width: 40px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .wwd-item-image {
+    width: 70px;
+    height: 70px;
+  }
+  .wwd-item-heading {
+    font-size: 1.4rem;
+    padding: 20px 0px 0px 10px;
+    max-height: 200px !important;
+    height: 120px;
+  }
+  .wwd-item {
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 50px;
+  }
+  .wwd-item-text {
+    margin-top: 0px;
+    font-size: 14px;
+  }
+}

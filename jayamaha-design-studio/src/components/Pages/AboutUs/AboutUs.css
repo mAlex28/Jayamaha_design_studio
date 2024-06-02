@@ -1,0 +1,570 @@
+.aboutpage {
+  background-color: #131313 !important;
+}
+
+/* banner header */
+.header-about {
+  background-image: url("../../../assets/images/about_banner.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center;
+  background-size: cover;
+}
+
+.header-about .container {
+  padding: 40vmin 1vmin 30vmin 1vmin;
+}
+
+.header-about .hero h2 {
+  font-size: 4.5rem;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+/* Showcase */
+
+.aboutus-page-page-div {
+  background-color: #080808 !important;
+}
+
+.aboutus-page-page-section {
+  color: #e1e1e1;
+}
+
+.aboutus-page-page-container {
+  margin-top: 200px;
+  background-color: #080808;
+}
+
+.aboutus-page-page-header {
+  max-width: 50%;
+}
+
+.aboutus-page-page-header h5 {
+  color: #d79765;
+  font-size: 1.2rem;
+  margin: 15px;
+}
+
+.aboutus-page-page-header h1 {
+  font-family: "NeueMontrealLight";
+  margin: 20px;
+  font-size: 4rem;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.aboutus-page-page-header p {
+  margin: 20px 0px;
+  font-family: "Roboto Condensed", sans-serif !important;
+  font-size: 0.99rem;
+  color: #9a9a9a;
+}
+
+.aboutus-page-projects-container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.about-showcase-img {
+  margin: 50px 0px;
+}
+
+.about-showcase-img img {
+  width: 400px;
+}
+
+/* CEO section */
+
+.aboutus-page-ceo-img {
+  margin: 50px 0px;
+}
+
+.aboutus-page-ceo-img img {
+  height: 600px;
+}
+
+.aboutus-ceo-info-wrapper {
+  border: 1px solid #845f42;
+  padding: 50px 80px;
+  background-color: #1c1c1c;
+  border-radius: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.ceo-quote {
+  width: 80%;
+  font-size: 1rem;
+  padding-bottom: 50px;
+}
+
+.ceo-quote p {
+  font-style: italic;
+  font-weight: 600;
+}
+
+.ceo-quote span {
+  color: #d79765;
+  font-size: 1rem;
+}
+
+.ceo-info {
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 0.8rem;
+}
+
+/* About us */
+
+.aboutus-page-aboutus .aboutus-page-page-header {
+  max-width: 60%;
+}
+
+.aboutus-page-aboutus .aboutus-page-page-header h5 {
+  color: #d79765;
+  font-size: 1.2rem;
+  margin: 15px 0px;
+}
+
+.aboutus-page-aboutus .aboutus-page-page-header h1 {
+  margin: 20px 0px;
+  font-size: 4rem;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.aboutus-page-desc-wrapper {
+  padding: 20px 0px 20px 50px;
+}
+
+.aboutus-page-desc-content {
+  margin: 30px 0px 30px 0px;
+  background-color: #1c1c1c;
+  padding: 50px 100px 50px 70px;
+  color: #9a9a9a;
+  border: 1px solid #845f42;
+}
+
+.aboutus-page-desc-image-wrapper {
+  padding-left: 0px;
+}
+
+/* Process */
+
+.aboutus-page-process {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.aboutus-page-process .aboutus-page-page-header {
+  max-width: 70%;
+}
+
+.aboutus-page-process .aboutus-page-page-header p {
+  font-family: "Roboto Condensed", sans-serif !important;
+  padding: 20px 0px;
+  max-width: 60%;
+}
+
+.container.aboutus-page-page-container div.aboutus-page-process div.row > * {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.container.aboutus-page-page-container div.aboutus-page-process div.row {
+  --bs-gutter-x: 0rem;
+}
+
+.aboutus-page-process-next-icon {
+  margin-left: -5px !important;
+  z-index: 1000;
+}
+
+.aboutus-page-process-one .card,
+.aboutus-page-process-two .card,
+.aboutus-page-process-three .card,
+.aboutus-page-process-four .card {
+  background-color: #1c1c1c;
+  height: 300px;
+  border: 1px solid #9a9a9a;
+}
+
+.aboutus-page-process-one .card .card-body,
+.aboutus-page-process-two .card .card-body,
+.aboutus-page-process-three .card .card-body,
+.aboutus-page-process-four .card .card-body {
+  padding: 25% 8%;
+}
+
+.aboutus-page-process-one .card .card-body img {
+  width: 84px;
+}
+
+.aboutus-page-process-two .card .card-body img,
+.aboutus-page-process-three .card .card-body img {
+  width: 64px;
+}
+
+.aboutus-page-process-four .card .card-body img {
+  width: 70px;
+}
+
+.aboutus-page-process-one .card .card-body h5,
+.aboutus-page-process-two .card .card-body h5,
+.aboutus-page-process-three .card .card-body h5,
+.aboutus-page-process-four .card .card-body h5 {
+  font-size: 1.3rem;
+  padding-top: 20px;
+  font-weight: 600;
+}
+
+.aboutus-process-button {
+  margin-top: 8%;
+}
+
+.aboutus-process-button .process-button {
+  text-decoration: none;
+  padding: 10px 10px;
+  background-color: #854c20;
+  border: none;
+  font-weight: 600;
+  color: #e1e1e1;
+}
+
+/* Contact */
+
+.aboutus-page-contact-container {
+  margin-bottom: 50px;
+}
+
+.pcs-d-wrapper-one {
+  padding-top: 200px;
+}
+
+.aboutus-page-contact-section-description-wrapper div {
+  padding-bottom: 20px;
+}
+
+.aboutus-page-call-us-on span {
+  font-family: "Roboto", sans-serif !important;
+  color: #cb8f61;
+  font-weight: 600;
+  padding-right: 6px;
+}
+
+.aboutus-page-dm-us-on span {
+  font-family: "Roboto", sans-serif !important;
+  font-weight: 600;
+  padding-right: 6px;
+  color: #cb8f61;
+}
+
+.aboutus-page-contact-descp-para {
+  font-size: 1rem;
+  max-width: 80%;
+}
+
+.aboutus-page-contact-section-form-wrapper {
+  margin-top: 300px !important;
+  color: #e1e1e1e6;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.aboutus-page-contact-section-form-wrapper h1 {
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+.aboutus-page-input-label-contact {
+  color: #e1e1e1e6;
+  background-color: #080808;
+}
+
+.aboutus-page-form-input-group {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.aboutus-page-contact-submit {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  overflow: hidden;
+}
+
+.aboutus-page-contact-submit img {
+  width: 90px;
+  transition: transform 0.5s ease;
+}
+
+.aboutus-page-contact-submit:hover img {
+  transform: scale(1.6);
+}
+
+.aboutus-page-contact-submit-button-wrap {
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media screen and (max-width: 1199.98px) {
+  .aboutus-page-desc-wrapper {
+    padding: 20px 0px 20px 0px;
+  }
+
+  .aboutus-page-page-container {
+    margin-top: 150px;
+  }
+
+  .aboutus-page-page-header {
+    max-width: 60%;
+  }
+
+  .aboutus-page-page-header h1,
+  .aboutus-page-aboutus .aboutus-page-page-header h1 {
+    font-size: 3.5rem;
+  }
+
+  .aboutus-page-page-header p {
+    margin: 20px 0px;
+    font-size: 0.9rem;
+    color: #9a9a9a;
+  }
+
+  .aboutus-page-aboutus .aboutus-page-page-header {
+    max-width: 70%;
+  }
+
+  .aboutus-page-ceo-img img {
+    height: 500px;
+  }
+
+  .aboutus-ceo-info-wrapper {
+    padding: 50px 50px;
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+}
+
+@media screen and (max-width: 991.98px) {
+  .aboutus-page-page-header {
+    max-width: 100%;
+  }
+
+  .aboutus-page-projects-container .about-showcase-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .aboutus-page-ceo-img img {
+    height: 400px;
+  }
+
+  .aboutus-ceo-info-wrapper {
+    padding: 30px 30px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .aboutus-page-aboutus .aboutus-page-page-header {
+    max-width: 90%;
+  }
+
+  .aboutus-page-process .aboutus-page-page-header {
+    max-width: 100%;
+  }
+
+  .aboutus-page-process .aboutus-page-page-header p {
+    max-width: 70%;
+  }
+
+  .aboutus-page-process-two .aboutus-page-process-next-icon {
+    display: none;
+  }
+
+  .container.aboutus-page-page-container div.aboutus-page-process div.row > * {
+    padding-left: 30px;
+  }
+
+  .container.aboutus-page-page-container div.aboutus-page-process div.row {
+    --bs-gutter-x: 1rem;
+  }
+
+  .aboutus-page-contact-section-description-wrapper div {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
+  .aboutus-page-contact-section-form-wrapper {
+    margin-top: 0px !important;
+  }
+
+  .aboutus-page-contact-descp-para {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .header-about .hero {
+    padding-left: 20px;
+  }
+
+  .header-about .hero h2 {
+    font-size: 3rem;
+  }
+
+  .aboutus-page-aboutus .aboutus-page-page-header {
+    max-width: 100%;
+  }
+
+  .aboutus-page-page-header h1,
+  .aboutus-page-aboutus .aboutus-page-page-header h1 {
+    font-size: 3rem;
+  }
+
+  .aboutus-page-process .aboutus-page-page-header p {
+    max-width: 100%;
+  }
+
+  .aboutus-page-process-next-icon {
+    display: none;
+  }
+
+  .container.aboutus-page-page-container div.aboutus-page-process div.row > * {
+    padding-left: 0px;
+  }
+
+  .aboutus-page-process-one .card .card-body,
+  .aboutus-page-process-two .card .card-body,
+  .aboutus-page-process-three .card .card-body,
+  .aboutus-page-process-four .card .card-body {
+    padding: 15% 8%;
+  }
+
+  .pcs-d-wrapper-one {
+    padding-top: 100px;
+  }
+
+  .aboutus-page-contact-image-wrapper {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+}
+
+@media screen and (max-width: 575.98px) {
+  .aboutus-ceo-info-wrapper {
+    padding: 50px 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .ceo-quote {
+    width: 100%;
+    font-size: 0.95rem;
+  }
+
+  .ceo-quote span {
+    font-size: 0.99rem;
+  }
+
+  .ceo-info {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 0.8rem;
+  }
+
+  .aboutus-page-aboutus {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .aboutus-page-desc-content {
+    margin: 20px 0px 20px 0px;
+    padding: 50px 50px 50px 50px;
+    font-size: 0.99rem;
+  }
+
+  .aboutus-page-process {
+    margin-top: 20%;
+    margin-bottom: 20%;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .aboutus-page-page-header h1 {
+    font-size: 3.5rem;
+  }
+
+  .aboutus-page-contact-submit img {
+    width: 60px;
+  }
+
+  .aboutus-page-contact-section-form-wrapper h1 {
+    font-size: 2.2rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .aboutus-page-page-header h1 {
+    font-size: 2.5rem;
+  }
+  .aboutus-page-dm-us-on h6 {
+    word-wrap: break-word;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .aboutus-page-ceo-img img {
+    height: 350px;
+  }
+
+  .aboutus-ceo-info-wrapper {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .aboutus-page-desc-content {
+    font-size: 14px;
+    padding: 30px 20px 30px 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .header-about .container {
+    padding: 40vmin 1vmin 10vmin 1vmin;
+  }
+  .header-about .hero h2 {
+    margin-top: 20px;
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .aboutus-page-page-header h1,
+  .aboutus-page-aboutus .aboutus-page-page-header h1 {
+    font-size: 2.5rem;
+  }
+
+  .ceo-info {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 0.8rem;
+  }
+
+  .aboutus-page-process-one .card,
+  .aboutus-page-process-two .card,
+  .aboutus-page-process-three .card,
+  .aboutus-page-process-four .card {
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 364px) {
+  .header-about .container {
+    padding: 50vmin 1vmin 10vmin 1vmin;
+  }
+}

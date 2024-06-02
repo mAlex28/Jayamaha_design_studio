@@ -1,0 +1,48 @@
+.footer-container {
+  background-color: #000000;
+}
+
+.footer-headings {
+  font-family: "Roboto", sans-serif !important;
+  font-size: 16px;
+  font-weight: 600 !important;
+  color: #805c40;
+}
+
+.footer-contacts:hover {
+  color: #8b5e3b !important;
+}
+
+.footer-follow-icon {
+  margin-right: 15px;
+  font-size: 20px;
+}
+
+.footer-follow-icon:hover {
+  color: #8b5e3b !important;
+}
+
+.footer-bottom {
+  background-color: #4a2d14;
+  font-size: 12px;
+}
+
+.footer-bottom a {
+  color: #efefef;
+}
+
+.footer-image {
+  height: 200px;
+}
+
+@media screen and (max-width: 991.98px) {
+  .footer-image {
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .footer-image {
+    height: 200px;
+  }
+}

@@ -1,0 +1,14 @@
+.scroll-button {
+    position: fixed;
+        left: 48%;
+        height: 20px;
+        font-size: 3rem;
+        z-index: 55;
+        cursor: pointer;
+        border: none;
+        background: transparent !important;
+}
+
+.scroll-button-icon {
+    color: #e1e1e1;
+}

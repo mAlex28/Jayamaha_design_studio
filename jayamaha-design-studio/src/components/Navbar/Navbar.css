@@ -1,0 +1,53 @@
+.navbar-header {
+  background-color: #1c1c1c !important;
+  position: fixed;
+  transition: top 0.1s ease 0s;
+  width: 100%;
+  border-bottom: 3px solid #8b5e3b;
+  z-index: 9999;
+}
+
+.navbar-names {
+  color: #f2f2f2 !important;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  font-weight: 600;
+  letter-spacing: 0.35px;
+  font-size: 14px;
+  transition: all 0.5s ease 0s;
+  cursor: pointer;
+}
+
+.navbar-names:hover {
+  background-color: #8b5e3b !important;
+}
+
+.navbar-names:active {
+  background-color: #8b5e3b !important;
+}
+
+.navbar-mailto-text {
+  color: #f2f2f2;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.navbar-mailto-text:hover {
+  color: #8b5e3b;
+}
+
+@media screen and (max-width: 1200px) {
+  .navbar-mailto-nav {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1370px) {
+  .navbar-mailto-nav {
+    display: none;
+  }
+}

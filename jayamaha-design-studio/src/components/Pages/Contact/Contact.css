@@ -1,0 +1,171 @@
+.contact-page-div {
+  background-color: #080808 !important;
+}
+
+.contact-page-section {
+  padding-top: 200px;
+}
+
+.contact-header h1 {
+  font-family: "NeueMontrealLight";
+  color: aliceblue;
+}
+
+.contact-page-form {
+  padding-top: 40px;
+  padding-left: 7%;
+  padding-right: 7%;
+}
+
+.form-control-input {
+  background-color: black;
+  border: 1px solid #8b5e3b;
+  color: #e1e1e1;
+}
+
+.from-control-input-label {
+  color: #e1e1e1;
+}
+
+.contact-page-form-group .form-control:focus {
+  color: #e1e1e1;
+  background-color: black !important;
+}
+
+.contact-page-button {
+  background: transparent;
+  border: none;
+  padding-right: 20px;
+}
+
+.contact-page-button-icon {
+  font-size: 40px;
+  color: #8b5e3b;
+}
+
+.contact-page-button:hover {
+  color: #8b5e3b;
+  background: transparent;
+  transform: scale(1.2) perspective(1px);
+}
+
+.contact-page-button-icon:hover {
+  color: #9b795f;
+}
+
+.contact-page-map-row > * {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.contact-page-map-wrapper {
+  margin: 7%;
+}
+
+.mapouter {
+  position: relative;
+  text-align: right;
+  z-index: 2222;
+}
+
+.gmap_canvas::before {
+  content: "";
+  position: absolute;
+  border: 2.5px solid #b96c31;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.25);
+  top: 30%;
+  width: 75%;
+  bottom: -20px;
+  left: -60px;
+  z-index: -1;
+}
+
+.gmap_canvas {
+  background: none !important;
+}
+
+.gmap_canvas a {
+  color: #e1e1e1;
+  text-decoration: none;
+  font-size: 0.5rem;
+}
+
+.gm-inset-map {
+  display: none !important;
+}
+
+.contact-address-wrapper {
+  padding: 30px;
+  color: #e1e1e1;
+  font-size: 0.8rem;
+  font-weight: 600;
+  background-color: #805c40;
+  height: 94.5%;
+}
+
+.contact-address-wrapper h4 {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.studio-email span {
+  word-break: break-word;
+}
+
+.contact-icon-border {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid #e1e1e1;
+  margin-bottom: 15px;
+}
+
+.contact-studio-email {
+  margin-top: 40px !important;
+}
+
+@media screen and (max-width: 1199.98px) {
+  .contact-studio-email {
+    margin-top: 32px !important;
+  }
+}
+
+@media screen and (max-width: 991.98px) {
+  .gmap_canvas::before {
+    display: none;
+  }
+
+  .contact-studio-email {
+    margin-top: 0px !important;
+  }
+
+  .contact-address-column {
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 575.98px) {
+  .contact-address-column {
+    padding-bottom: 40px;
+  }
+
+  .contact-us-column {
+    margin-bottom: 30px !important;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .contact-page-map-wrapper {
+    margin: 10% 7% 7% 7%;
+  }
+}

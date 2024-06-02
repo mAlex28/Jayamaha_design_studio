@@ -1,0 +1,111 @@
+.testimonials-section {
+  background-image: url("../../assets/images/testimonials_bg.png");
+  background-color: #1c1c1c;
+  background-size: cover;
+  color: aliceblue;
+}
+
+.testimonial-header {
+  margin: 20px;
+}
+
+.testimonial-header hr {
+  border-radius: 15px;
+  width: 10%;
+  border: 2.5px solid #845f42;
+}
+
+.testimonial-header h1 {
+  font-family: "NeueMontrealLight";
+  font-size: 4.5rem;
+  font-weight: 500;
+}
+
+.testimonial-header p {
+  font-family: "Roboto Condensed", sans-serif !important;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #b2bec3;
+}
+
+.testimonial-image {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.testimonial-image img {
+  height: 400px;
+  width: auto;
+}
+
+.testimonial-name {
+  font-size: 1.5rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.testimonial-description {
+  font-style: italic;
+  padding-bottom: 10px;
+  color: #b4825c;
+  font-size: 1.2rem;
+}
+
+.testimonial-center-text {
+  margin-top: 100px;
+}
+
+@media screen and (max-width: 1199.98px) {
+  .testimonial-header hr {
+    width: 20%;
+  }
+
+  .testimonial-header h1 {
+    font-size: 3.5rem;
+  }
+
+  .testimonial-header p {
+    font-size: 1rem;
+  }
+
+  .testimonial-description {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .testimonial-header hr {
+    width: 25%;
+  }
+}
+
+@media screen and (max-width: 575.98px) {
+  .testimonial-description {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .testimonial-header hr {
+    width: 20%;
+  }
+
+  .testimonial-header h1 {
+    font-size: 2.5rem;
+  }
+
+  .testimonial-header p {
+    font-size: 0.9rem;
+  }
+
+  .testimonial-description {
+    font-size: 0.9rem;
+  }
+
+  .testimonial-image img {
+    height: 300px;
+    width: auto;
+  }
+}

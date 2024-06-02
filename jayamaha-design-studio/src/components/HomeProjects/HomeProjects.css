@@ -1,0 +1,88 @@
+.project-section {
+  background-color: #161616;
+  color: #e9e9e9;
+}
+
+.project-section-wrapper {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.project-section-heading-wrapper {
+  max-width: 50%;
+}
+
+.project-section-heading {
+  font-family: "NeueMontrealLight";
+  font-size: 4em;
+  font-weight: 400 !important;
+}
+
+.project-section-para {
+  font-family: "Roboto Condensed", sans-serif !important;
+  font-size: 1rem;
+}
+
+.project-section-items-wrapper {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.project-section-item {
+  padding-right: 50px;
+}
+
+.project-section-item-heading {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.project-section-item-descp {
+  margin-top: 20px;
+  font-size: small;
+}
+
+.project-section-image {
+  cursor: pointer;
+  object-fit: cover;
+  height: 350px;
+}
+
+.ReactModal__Overlay {
+  z-index: 11000 !important;
+}
+
+@media screen and (max-width: 990px) {
+  .project-section-item {
+    padding-right: 0px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  .project-section-heading-wrapper {
+    max-width: 70%;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .project-section-item {
+    padding-right: 4%;
+    padding-left: 4%;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .project-section-item {
+    padding-right: 6%;
+    padding-left: 6%;
+  }
+
+  .project-section-heading-wrapper {
+    padding-left: 6%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .project-section-heading {
+    font-size: 3.5em;
+  }
+}

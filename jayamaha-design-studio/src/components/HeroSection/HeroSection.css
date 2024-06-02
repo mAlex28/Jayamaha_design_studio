@@ -1,0 +1,114 @@
+/* header */
+header,
+section {
+  overflow: hidden;
+}
+
+html
+  body
+  div#root
+  main.homepage
+  div.hero-slider
+  div.slick-slider.slick-initialized
+  div.slick-list {
+  background-color: #080808;
+}
+
+.header-home-1 {
+  background-image: url("../../assets/images/banner_1.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center;
+  background-size: cover;
+}
+
+.header-home-2 {
+  background-image: url("../../assets/images/banner_2.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center;
+  background-size: cover;
+}
+
+.header-home-3 {
+  background-image: url("../../assets/images/banner_3.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center;
+  background-size: cover;
+}
+
+header .container {
+  padding: 40vmin 1vmin 10vmin 1vmin;
+}
+
+header .hero h2 {
+  font-family: "NeueMontrealRegular";
+  text-transform: capitalize;
+  font-size: 4rem;
+}
+
+header .hero .hero-button {
+  text-decoration: none;
+  font-weight: 600;
+  padding: 1em 0em;
+  font-size: 18px;
+  color: #d39564;
+  background: linear-gradient(
+      90deg,
+      transparent calc(100% / 4),
+      currentColor 0 calc(300% / 4),
+      transparent 0
+    )
+    var(--d, 100%) 100% /200% 3px repeat-x;
+  transition: 0.5s;
+}
+
+header .hero .hero-button:hover {
+  --d: -100%;
+}
+
+@media screen and (max-width: 768px) {
+  header .hero {
+    padding-left: 20px;
+  }
+
+  header .hero h2 {
+    font-size: 3rem;
+  }
+
+  header .hero .btn {
+    padding: 0.4em 1em;
+  }
+
+  .col-4 .landing-image {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .landing-image-div {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  header .container {
+    padding: 40vmin 1vmin 10vmin 1vmin;
+  }
+  header .hero h2 {
+    margin-top: 20px;
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  header .hero .hero-button {
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 364px) {
+  header .container {
+    padding: 50vmin 1vmin 10vmin 1vmin;
+  }
+}
